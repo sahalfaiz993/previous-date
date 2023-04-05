@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+         var today = new Date()
+         var old = new Date(prompt("ENTER YOUR DATE OF BIRTH" , ))
+         var year=today.getFullYear()-old.getFullYear()
+         var month = today.getMonth()-old.getMonth();
+         var day= today.getDay()-old.getDay();
+         var hours=today.getHours()-old.getHours();
+         var min=today.getMinutes()-old.getMinutes();
+         var sec=today.getSeconds()-old.getSeconds();
+         var result="You Are " + year + " " + "Year " + month + " " + "Month " + day + " " + "Day "+ hours + " "+ "Hour "+ min + " "+ "Minutes " + sec + " "+ "Seconds" + " " + "I AM LIVING IN EARTH ";
+         document.write(result);
+
+        var a = new Date();
+        var b = new Date("21,Apr,2023")
+        var years = a.getFullYear() - b.getFullYear()
+        var months = a.getMonth() - b.getMonth();
+        var days = a.getDay() - b.getDay();
+        var hours = a.getHours() - b.getHours();
+        var mins = a.getMinutes() - b.getMinutes();
+        var secs = a.getSeconds() - b.getSeconds();
+        var results = "In Eid" + " " + years + " " + "Year " + months + " " + "Month " + days + " " + "Day "+ hours + " "+ "Hour "+ mins + " "+ "Minutes " + secs + " "+ "Seconds";
+        document.write(results)
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
